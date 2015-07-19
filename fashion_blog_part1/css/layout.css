@@ -1,0 +1,176 @@
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* BASE
+/*******************************************/
+
+#container {
+  width: 1200px;
+}
+
+.titles h2 {
+  float: right;
+}
+
+.blog-title1 h2 {
+  margin-bottom: 20px;
+}
+
+.blog-title2 h2 {
+  margin-bottom: 20px;
+}
+
+.titles {
+  width: 650px;
+  padding: 68px 15px 10px 58px;
+}
+
+/******************************************
+/* NAVIGATION
+/*******************************************/
+
+nav {
+  margin-left: 58px;
+  margin-right: 58px;
+  white-space: nowrap;
+}
+
+/******************************************
+/* BLOG POSTS
+/*******************************************/
+
+img {
+  max-width: 700px;
+}
+
+.blog-container1 {
+  clear: none;
+  max-width: 700px;
+  position: relative;
+  margin-left: 58px;
+}
+
+.blog-container2 {
+  clear: none;
+  max-width: 700px;
+  position: relative;
+  margin-left: 58px;
+}
+
+.date1 {
+  margin-top: 65px;
+}
+
+.date2 {
+  margin-top: 65px;
+}
+
+.date1 h3 {
+  margin-bottom: 20px;
+}
+
+.date2 h3 {
+  margin-bottom: 20px;
+}
+
+.titles h2 {
+  padding-top: 20px;
+}
+
+.article-text1 {
+  display: inline;
+}
+
+.article-text2 {
+  display: inline;
+}
+
+.first-letter {
+  clear: none;
+  float: left;
+}
+
+.blogpost {
+  margin-top: 30px;
+  padding-bottom: 35px;
+}
+
+.cont-link a {
+  text-decoration: none;
+  /*float: right;*/
+  margin-left: 550px;
+  color: red;
+  padding-bottom: 50px;
+
+}
+
+.first-letter {
+  /*clear: none;*/
+  float: left;
+}
+
+
+/******************************************
+/* SIDEBAR
+/*******************************************/
+
+#sidebar-container {
+  max-width: 300px;
+  float: right;
+  margin: 80px 60px 0 0;
+}
+.about {
+  clear: both;
+  /*float: right;*/
+  /*width: 30%;*/
+  border-bottom: 1px solid #CDCDCD;
+  padding-bottom: 50px;
+}
+
+.about h3 {
+  margin-top: 45px;
+  padding-bottom: 15px;
+}
+
+.about-link a {
+  float: right;
+  padding-bottom: 50px;
+  margin-right: 20px;
+}
+
+.popular-posts {
+  clear: both;
+  float: right;
+  /*width: 30%;*/
+  /*margin-right: 20px;
+  margin-left: 20px;*/
+}
+
+.popular-posts ul {
+  margin-left: 30px;
+}
+
+.popular-posts h3 {
+  margin-top: 25px;
+  padding-bottom: 15px;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+.footer-nav li {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.footer-nav {
+  margin: 60px 0 20px 58px;
+}
+
+#footer-text {
+  margin-left: 58px;
+  margin-bottom: 50px;
+}
