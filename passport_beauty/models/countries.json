@@ -1,0 +1,12 @@
+{
+  "countries":[{
+    "name":"Greta",
+    "age": "28",
+    "occupation": "Ecommerce Director"
+  },
+  {
+    "name":"Garth",
+    "age": "33",
+    "occupation": "Scientist"
+  }]
+}
