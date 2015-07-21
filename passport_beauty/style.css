@@ -26,8 +26,12 @@ header h1 {
   margin-right: .5em;
   background-color: #F2CCC3;
   padding: .3em;
-  color: #FEF9FF;
   font-family: 'Dosis', sans-serif;
+}
+
+header h1 a {
+  color: #FEF9FF;
+  text-decoration: none;
 }
 
 header h2 {
@@ -35,6 +39,7 @@ header h2 {
   font-size: 1.5em;
   background-color: #FEF9FF;
   color: #847E75;
+  line-height: 2em;
 }
 
 nav ul {
