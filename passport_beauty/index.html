@@ -38,11 +38,17 @@
 			</div>
 		</section>
 
-		<div id="map"><img src="imgs/map.svg"></div>
+		<div id="map"><object id="map2" data="imgs/map.svg"></object></div>
 
 	</section>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/app.js"></script>
+	<script>
+	var map = d3.select("#map2");
+	console.log(map);
+
+	</script>
 </body>
 </html>
