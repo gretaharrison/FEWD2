@@ -12,10 +12,17 @@ this.closeSlider = function() {
     slider.className='initial';
     this.closeSlider();
 
-  //  console.log(this);
+  //  console.log(d3.select("path"));
+  //  var svg = d3.select("#map svg");
+  //  var countries = svg.selectAll("path");
+
+
   }
 
 
 
+
+
+
   this.init();
-}
+};
