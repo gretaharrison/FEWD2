@@ -54,6 +54,12 @@
   "solutionDescription": "Olive oil is a regular part of the Greek diet, and also the Greek beauty routine: For super moisturized skin, replace your favorite moisturizer with oilve oil and apply directly to skin post-shower or bath."
 },
 {
+  "name":"poland",
+  "displayName": "Poland",
+  "beautySolution": "Nourished Hair",
+  "solutionDescription": ""
+},
+{
   "name":"spain",
   "displayName": "Spain",
   "beautySolution": "Dark Circle Remedy",

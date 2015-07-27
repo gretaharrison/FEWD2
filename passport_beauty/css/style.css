@@ -103,17 +103,18 @@ nav a:hover {
 
 }
 
-/*#modal {
+#modal {
+  visibility: hidden;
+  position: absolute;
   height:500px;
   width:500px;
   background-color: #fff;
   border: 1px solid #000;
   color: black;
-  position: absolute;
   top: 200px;
   left: 353px;
   text-align: center;
-}*/
+}
 
 /*font-family: 'Poiret One', cursive;
 font-family: 'Dosis', sans-serif;*/
