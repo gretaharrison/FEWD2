@@ -116,9 +116,18 @@ nav a:hover {
   text-align: center;
   display: block;
 }
+#modal p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+p #displayName {
+  font-size: 2em;
+}
 
 a #close {
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 
 /*font-family: 'Poiret One', cursive;

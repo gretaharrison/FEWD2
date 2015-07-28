@@ -52,7 +52,6 @@ Element.prototype.Map = function() {
           var solutionDescription = document.createElement('solutionDescription');
           solutionDescription.innerHTML = u;
 
-
           var p = document.createElement('p');
           p.innerHTML = "Hello from " + s + "<br /> <br /> " + t + "<br /> <br />" + u;
           modal.appendChild(p);
