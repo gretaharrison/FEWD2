@@ -114,6 +114,7 @@ nav a:hover {
   top: 200px;
   left: 353px;
   text-align: center;
+  display: block;
 }
 
 a #close {

@@ -44,8 +44,17 @@ Element.prototype.Map = function() {
           var displayName = document.createElement('displayName');
           displayName.innerHTML = s;
 
+          var t = map.countries[country.id].beautySolution;
+          var beautySolution = document.createElement('beautySolution');
+          beautySolution.innerHTML = t;
+
+          var u = map.countries[country.id].solutionDescription;
+          var solutionDescription = document.createElement('solutionDescription');
+          solutionDescription.innerHTML = u;
+
+
           var p = document.createElement('p');
-          p.innerHTML = "Hello from " + s;
+          p.innerHTML = "Hello from " + s + "<br /> <br /> " + t + "<br /> <br />" + u;
           modal.appendChild(p);
 
           var close = document.getElementById('close');
