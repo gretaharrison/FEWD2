@@ -1,80 +1,76 @@
 {
-  "countries":[{
-    "countryName": "australia",
+  "countries":{
+
+  "australia" : {
     "displayName": "Australia",
     "beautySolution": "Flake-Free Hair",
     "solutionDescription": "Australians are known for their natural haircare techniques: A popular dandruff remedy is to add a few drops of eucalyptus oil or tea tree oil to your favorite shampoo and use as normal."
   },
-  {
-  "name": "brazil",
+  "brazil": {
   "displayName": "Brazil",
   "beautySolution": "Sunburn Relief",
   "solutionDescription": "Next time you get a sunburn, grab a box of... Quaker Oats!? Sun-loving Brazilians have an interesting sunburn remedy: Next time you get a burn, tie some oatmeal in gauze and position it over the tap of your bathtub - allowing the water to filter through the oats. Soak in the tub, and soak up the oatmeals amazing anti-inflammatory healing properties."
 },
-{
-  "name":"bulgaria",
+
+  "bulgaria": {
   "displayName": "Bulgaria",
   "beautySolution": "Glowing Skin",
   "solutionDescription": "Since Bulgaria's Rose Valley produces about 85% of the world's rose oil, it's no surprise that Bulgarian women have discovered many uses for the fragrant oil: Dilute 5-7 drops of rose oil in 1 cup of distilled water to create rose water. Use as facial rinse for glowing skin."
 },
-{
-  "name": "chile",
+
+  "chile": {
   "displayName": "Chile",
   "beautySolution": "Glowing Skin",
   "solutionDescription": "For vibrant skin, take a note from the women in Chile: They use crushed grapes (about 1 handful) mixed with (a couple tablespoons) of white flour. Apply to face, wait ten minutes then rinse off."
 },
-{
-  "name": "colombia",
+
+  "colombia": {
   "displayName": "Columbia",
   "beautySolution": "Shiny Hair",
   "solutionDescription": "Feed your hair with this pantry-stapl Columbian hair tip: Blend together an avocado, a banana and a tablespoon of olive oil until it forms a uniform paste. Apply to hair from root to tip, wait 30 minutes, then shampoo and condition like normal."
 },
-{
-  "name": "costa_rica",
+
+  "costa_rica": {
   "displayName": "Costa Rica",
   "beautySolution": "Shrink Your Pores",
   "solutionDescription": "Costa Rican women have an easy tip to shrink pores in a snap: Apply a mixture of 50% orange juice and 50% water to the face with a cotton ball, wait a few minutes then rinse."
 },
-{
-  "name": "dominican_republic",
+
+  "dominican_republic": {
   "displayName": "Dominican Republic",
   "beautySolution": "Stronger Nails",
   "solutionDescription": "Beat brittle nails with this unusual Dominican Republic trick: Add a chopped up clove of fresh garlic to clear nail polish. Wait about one week then apply the polish/garlic mixture to nails. The strong smell will wear off quickly, revealing stronger nails. "
 },
-{
-  "name":"france",
+
+  "france": {
   "displayName": "France",
   "beautySolution": "Healthy Hair",
   "solutionDescription": "A French tip for healthy locks: Don't brush them - ever. Seriously. Besides using a wide tooth comb while conditioning, many French women do not own a single hair brush. The result? Super shiny hair with just the right amount of wave."
 },
-{
-  "name":"greece",
+
+  "greece": {
   "displayName": "Greece",
   "beautySolution": "Moisturized Skin",
   "solutionDescription": "Olive oil is a regular part of the Greek diet, and also the Greek beauty routine: For super moisturized skin, replace your favorite moisturizer with oilve oil and apply directly to skin post-shower or bath."
 },
-{
-  "name":"poland",
+
+  "poland": {
   "displayName": "Poland",
   "beautySolution": "Nourished Hair",
   "solutionDescription": ""
 },
-{
-  "name":"spain",
+
+  "spain": {
   "displayName": "Spain",
   "beautySolution": "Dark Circle Remedy",
   "solutionDescription": "Spanish women have an easy trick to lighten pesky under eye circles: Simply cut potatoes into thin slices and place on top over eyes about for ten minutes."
 },
-{
-  "name":"sweden",
+
+  "sweden": {
   "displayName": "Sweden",
   "beautySolution": "Purge Toxins From Skin",
   "solutionDescription": "A Swedish essential for healthy beautiful skin: A sauna session followed by a shower. The heat from the sauna is thought to purge toxins from the skin. The post sauna shower removes them entirely."
-},
-{
-  "name":"",
-  "displayName": "",
-  "beautySolution": "",
-  "solutionDescription": ""
-  }]
+}
+
+}
 }

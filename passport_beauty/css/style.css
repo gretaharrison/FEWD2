@@ -116,5 +116,9 @@ nav a:hover {
   text-align: center;
 }
 
+a #close {
+  margin-bottom: 10px;
+}
+
 /*font-family: 'Poiret One', cursive;
 font-family: 'Dosis', sans-serif;*/
