@@ -14,13 +14,9 @@ this.connect = function () {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "./models/countries.json", true);
   xhr.setRequestHeader("Content-Type", "application/json");
+  countries = JSON.parse(xhr.countries);
+  displayName = JSON.parse(countries.displayName);
 
-  xhr.onreadystatechange = function () {
-    if (xhr.readystate == 4) {
-      var response = JSON.parse(xhr.responseText);
-      displayName = response.displayName;
-    }
-  }
   xhr.send();
 };
 
@@ -42,8 +38,10 @@ this.connect = function () {
           // xhr.open("GET", "./models/countries.json", true);
           // xhr.setRequestHeader("Content-Type", "application/json");
 
+
+
           var p = document.createElement('p');
-          p.innerHTML = "hello from " + country.id;
+          p.innerHTML = "hello from " + country.id + " " + countries[0].displayName;
           modal.appendChild(p);
 
           var close = document.getElementById('close');
