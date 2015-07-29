@@ -1,11 +1,24 @@
 {
   "countries":{
 
+  "algeria" : {
+    "displayName": "Algeria",
+    "beautySolution": "Coming Soon!",
+    "solutionDescription": ""
+  },
+
   "australia" : {
     "displayName": "Australia",
     "beautySolution": "Flake-Free Hair",
     "solutionDescription": "Australians are known for their natural haircare techniques: A popular dandruff remedy is to add a few drops of eucalyptus oil or tea tree oil to your favorite shampoo and use as normal."
   },
+
+  "bissau": {
+  "displayName": "Bissau",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
+
   "brazil": {
   "displayName": "Brazil",
   "beautySolution": "Sunburn Relief",
@@ -15,14 +28,31 @@
   "bulgaria": {
   "displayName": "Bulgaria",
   "beautySolution": "Glowing Skin",
-  "solutionDescription": "Since Bulgaria's Rose Valley produces about 85% of the world's rose oil, it's no surprise that Bulgarian women have discovered many uses for the fragrant oil: Dilute 5-7 drops of rose oil in 1 cup of distilled water to create rose water. Use as facial rinse for glowing skin."
+  "solutionDescription": "From Bulgarian beauty editor Maria Georgieva: 'Rose water is our secret for keeping the face clean and moisturized' - no surprise since Bulgaria produces 85% of the world's rose oil - the key ingredient to rose water."
 },
+  "canada": {
+  "displayName": "Canada",
+  "beautySolution": "Brighter Skin",
+  "solutionDescription": "According to Canadian beauty editor, Vanessa Craft: 'we love anything containing argan oil that we can smother on our hair or repair wind burnt or dry skin. Ingredients wise, fruit stem cells are big news right now and, true to their Canadian spirit, B Kamins harness the antioxidant powers of our ubiquitous maple syrup to hydrate and brighten.'"
+  },
+
+  "casamance": {
+  "displayName": "Casamance",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
 
   "chile": {
   "displayName": "Chile",
   "beautySolution": "Glowing Skin",
   "solutionDescription": "For vibrant skin, take a note from the women in Chile: They use crushed grapes (about 1 handful) mixed with (a couple tablespoons) of white flour. Apply to face, wait ten minutes then rinse off."
 },
+
+  "china": {
+  "displayName": "China",
+  "beautySolution": "Brighter Skin!",
+  "solutionDescription": "From Chinese beauty director Lettie Tseng: 'In China, we believe that pearl powder can make our skin look brighter and clear. Also, it is said that the water from cleaning rice can be used to wash your face, because some of the nutrients it contains help resolve the oil and dirt from the skin.'"
+  },
 
   "colombia": {
   "displayName": "Columbia",
@@ -36,11 +66,23 @@
   "solutionDescription": "Costa Rican women have an easy tip to shrink pores in a snap: Apply a mixture of 50% orange juice and 50% water to the face with a cotton ball, wait a few minutes then rinse."
 },
 
+  "croatia": {
+  "displayName": "Croatia",
+  "beautySolution": "Happy Scalp Solution",
+  "solutionDescription": "From Croatian beauty editor Mihaela Batinic: My go-to natural beauty ingredient for an itchy scalp is to wash it with nettles. After gathering nettles from the meadow, boil them in 3-4 liters of water. Once cooled, wash your hair (no need for shampoo)."
+  },
+
   "dominican_republic": {
   "displayName": "Dominican Republic",
   "beautySolution": "Stronger Nails",
   "solutionDescription": "Beat brittle nails with this unusual Dominican Republic trick: Add a chopped up clove of fresh garlic to clear nail polish. Wait about one week then apply the polish/garlic mixture to nails. The strong smell will wear off quickly, revealing stronger nails. "
 },
+
+  "estonia": {
+  "displayName": "Estonia",
+  "beautySolution": "Picture Perfect Makeup",
+  "solutionDescription": "According to Estonian model Karmen Pedaru: Get a face massage before putting makeup on."
+  },
 
   "france": {
   "displayName": "France",
@@ -48,11 +90,77 @@
   "solutionDescription": "A French tip for healthy locks: Don't brush them - ever. Seriously. Besides using a wide tooth comb while conditioning, many French women do not own a single hair brush. The result? Super shiny hair with just the right amount of wave."
 },
 
+  "gambia": {
+  "displayName": "Gambia",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
+
+  "germany": {
+  "displayName": "Germany",
+  "beautySolution": "Improved Circulation",
+  "solutionDescription": "From German beauty director Barbara Huber: 'In Germany, Kneipp treatments—treading in cold water—are very popular. They are good for improving the immune system and activating blood circulation.'"
+  },
+
   "greece": {
   "displayName": "Greece",
   "beautySolution": "Moisturized Skin",
   "solutionDescription": "Olive oil is a regular part of the Greek diet, and also the Greek beauty routine: For super moisturized skin, replace your favorite moisturizer with oilve oil and apply directly to skin post-shower or bath."
 },
+
+  "india": {
+  "displayName": "India",
+  "beautySolution": "Longer Locks",
+  "solutionDescription": "From beauty editor Parizaad Khan: Lustrous and healthy; waist-length, dark hair is the Indian woman’s badge of femininity and desirability. We have at-home hair rituals, where a visiting ‘maalishwali’ massage therapist oils the scalp with pure coconut, almond or sesame oils then massages it in, increasing blood circulation to boost hair growth."
+  },
+
+  "ivoire": {
+  "displayName": "Ivoire",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
+
+  "honshu": {
+  "displayName": "Japan",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": "From Japanese beauty editor Yumiko Murata: 'UV rays are stronger in Japan than in the West, so I protect my skin from dryness and damage throughout the year with UV cut cream and lots of moisturizing.'"
+  },
+
+  "liberia": {
+  "displayName": "Liberia",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
+
+  "kalimantan": {
+  "displayName": "Kalimantan",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
+
+  "mali": {
+  "displayName": "Mali",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
+
+  "mexico": {
+  "displayName": "Mexico",
+  "beautySolution": "Longer Lashes",
+  "solutionDescription": "According to Mexican beauty editor Beatriz Portuguez: 'We love our trusted brands. Mascaras de Pestañas Rosita, a mascara made with oil from the seeds of the mamey fruit, has a cult following; it’s an extremely black formulation and we swear the oil boosts lash growth. It’s 24 pesos (about $1) and Mexico’s bestselling mascara.'"
+  },
+
+  "morocco" : {
+  "displayName": "Morocco",
+  "beautySolution": "A Restorative Oil",
+  "solutionDescription": "Argan oil is lauded for its healing and anti-aging properties, so ladies in Morocco use it for everything from skin, to hair, to nails. Extracted from the kernels of the argan tree and has been used for centuries for beauty treatments due to its restoring qualities. Surprisingly to many people in the West, the oil is also used to dip bread in or drizzled over pasta and couscous so it’s not only a great topical treatment but is healthful for the body."
+  },
+
+  "papua_new_guinea": {
+  "displayName": "Papua New Guinea",
+  "beautySolution": "Clear Skin",
+  "solutionDescription": "Colorado State researchers studied the people of Papua New Guinea and couldn't find a single zit in the lot. Their secret? A diet that consists almost exclusively of protein, fruits, and veggies. Absent from their meals: simple carbohydrates — such as white bread and sweets. These carbs send our insulin levels soaring which sets off a series of reactions that can lead to breakouts."
+  },
 
   "poland": {
   "displayName": "Poland",
@@ -60,11 +168,29 @@
   "solutionDescription": ""
 },
 
+  "senegal": {
+  "displayName": "Senegal",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
+
+  "sierra_leone": {
+  "displayName": "Sierra Leone",
+  "beautySolution": "Coming Soon!",
+  "solutionDescription": ""
+  },
+
   "spain": {
   "displayName": "Spain",
   "beautySolution": "Dark Circle Remedy",
   "solutionDescription": "Spanish women have an easy trick to lighten pesky under eye circles: Simply cut potatoes into thin slices and place on top over eyes about for ten minutes."
 },
+
+  "south_korea": {
+  "displayName": "South Korea",
+  "beautySolution": "Moisturized Skin",
+  "solutionDescription": "According to South Korean beauty editor Okja Chung: 'Seoul is one of the driest cities in the world and leaves skin withered so Korean women are meticulous when it comes to moisturising; we take it very seriously. During the day most women ‘mist’ their faces to stem dehydration and twice a week I apply a face mask and for added moisture.'"
+  },
 
   "sweden": {
   "displayName": "Sweden",
