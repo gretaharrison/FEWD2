@@ -52,8 +52,8 @@ Element.prototype.Map = function() {
           var solutionDescription = document.createElement('solutionDescription');
           solutionDescription.innerHTML = solutionDescriptionText;
 
-          var p = document.createElement('p');
-          p.innerHTML = "Hello from " + displayNameText + "<br /> <br />" + beautySolutionText + "<br /> <br />" + solutionDescriptionText;
+          var p = document.createElement('div');
+          p.innerHTML = '<div class="name">'+displayNameText+'</div><div class="solution">'+beautySolutionText+'</div><div class="description">'+solutionDescriptionText+'</div>';
           modal.appendChild(p);
 
           var close = document.getElementById('close');
