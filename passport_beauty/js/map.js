@@ -40,20 +40,20 @@ Element.prototype.Map = function() {
           var modal = document.getElementById('modal');
           modal.style.visibility = "visible";
 
-          var s = map.countries[country.id].displayName;
+          var displayNameText = map.countries[country.id].displayName;
           var displayName = document.createElement('displayName');
-          displayName.innerHTML = s;
+          displayName.innerHTML = displayNameText;
 
-          var t = map.countries[country.id].beautySolution;
+          var beautySolutionText = map.countries[country.id].beautySolution;
           var beautySolution = document.createElement('beautySolution');
-          beautySolution.innerHTML = t;
+          beautySolution.innerHTML = beautySolutionText;
 
-          var u = map.countries[country.id].solutionDescription;
+          var solutionDescriptionText = map.countries[country.id].solutionDescription;
           var solutionDescription = document.createElement('solutionDescription');
-          solutionDescription.innerHTML = u;
+          solutionDescription.innerHTML = solutionDescriptionText;
 
           var p = document.createElement('p');
-          p.innerHTML = "Hello from " + s + "<br /> <br /> " + t + "<br /> <br />" + u;
+          p.innerHTML = "Hello from " + displayNameText + "<br /> <br />" + beautySolutionText + "<br /> <br />" + solutionDescriptionText;
           modal.appendChild(p);
 
           var close = document.getElementById('close');

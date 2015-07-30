@@ -10,9 +10,11 @@ body {
   font-family: 'Poiret One', cursive;
 	line-height: 1.5;
   background-color: #FEF9FF;
-
-
 }
+
+/* **********************************************
+HEADER
+************************************************* */
 
 header {
   margin-bottom: 1em;
@@ -42,6 +44,10 @@ header h2 {
   line-height: 2em;
 }
 
+/* **********************************************
+NAVIGATION
+************************************************* */
+
 nav ul {
   list-style: none;
 }
@@ -68,6 +74,10 @@ nav a {
 nav a:hover {
   color: #F2CCC3;
 }
+
+/* **********************************************
+INTRO SLIDER
+************************************************* */
 
 #slider {
   background-color: #DF7373;
@@ -97,11 +107,15 @@ nav a:hover {
   font-family: 'Lato', sans-serif;
 }
 
-#map {
+#map svg {
   max-width: 950px;
   margin: 0 auto;
-
+  display: block;
 }
+
+/* **********************************************
+MODAL - pop up window
+************************************************* */
 
 #modal {
   visibility: hidden;
@@ -119,16 +133,104 @@ nav a:hover {
 #modal p {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 20px;
+  /*padding-top: 10px;*/
+  line-height: 1.5em;
+  font-family: 'Dosis', sans-serif;
+  color: #847E75;
+  /*top: 0;*/
 }
 
-p #displayName {
+#modal p solutionDescriptionText {
+  font-weight: bold;
+}
+
+
+#close {
+  bottom: 10px;
+  position: absolute;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* **********************************************
+CONTACT PAGE
+************************************************* */
+
+#contactMain {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+#contact {
   font-size: 2em;
+  background-color: #FEF9FF;
+  color: #847E75;
+  line-height: 1em;
 }
 
-a #close {
-  /*margin-bottom: 10px;*/
+#contactText {
+  font-size: 1.5em;
+  background-color: #FEF9FF;
+  color: #847E75;
+  line-height: 1em;
 }
 
-/*font-family: 'Poiret One', cursive;
-font-family: 'Dosis', sans-serif;*/
+#contactText a {
+  text-decoration: none;
+	color: #DF7373;
+}
+
+/* **********************************************
+MEDIA QUERIES
+************************************************* */
+
+@media (max-width: 400px) {
+
+  body {
+    width: 400px;
+  }
+
+  header h2 {
+    display: inline;
+    font-size: 1.25em;
+    background-color: #FEF9FF;
+    color: #847E75;
+
+  }
+
+  nav ul li {
+  	width: 100%;
+    line-height: 0.5em;
+    margin-top: -15px;
+  }
+
+  #slider {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    top: 260px;
+    left: 0;
+  }
+
+  #modal {
+    visibility: hidden;
+    position: absolute;
+    height:400px;
+    width:400px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: black;
+    top: 260px;
+    left: 0;
+    text-align: center;
+    display: block;
+  }
+
+  #map svg {
+    width: 400px;
+    margin-top: -100px;
+  }
+
+
+
+}

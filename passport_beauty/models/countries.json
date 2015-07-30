@@ -168,6 +168,12 @@
   "solutionDescription": ""
 },
 
+  "portugal": {
+  "displayName": "Portugal",
+  "beautySolution": "Healty Skin",
+  "solutionDescription": "From Portuguese beauty editor Joana Brito: 'Turmeric. It not only has amazing healing properties, but it's a great beauty product. I've discovered this DIY turmeric face mask: Mix flour, turmeric, honey, and milk to make a paste; apply it in a thin layer to your face; let dry for 20 minutes and rinse in the shower.'"
+  },
+
   "senegal": {
   "displayName": "Senegal",
   "beautySolution": "Coming Soon!",
@@ -186,6 +192,12 @@
   "solutionDescription": "Spanish women have an easy trick to lighten pesky under eye circles: Simply cut potatoes into thin slices and place on top over eyes about for ten minutes."
 },
 
+  "south_africa": {
+  "displayName": "South Africa",
+  "beautySolution": "Moisturized Skin",
+  "solutionDescription": "From South African beauty editor Sarah Hoberman: 'I use pure shea butter as a body moisturizer in the winter. Frazer Parfum, a local beauty company, sources it from Mali. It is beautiful and natural, extremely moisturizing, and smells of the earth.'"
+  },
+
   "south_korea": {
   "displayName": "South Korea",
   "beautySolution": "Moisturized Skin",
@@ -196,7 +208,13 @@
   "displayName": "Sweden",
   "beautySolution": "Purge Toxins From Skin",
   "solutionDescription": "A Swedish essential for healthy beautiful skin: A sauna session followed by a shower. The heat from the sauna is thought to purge toxins from the skin. The post sauna shower removes them entirely."
-}
+},
+
+  "usa": {
+  "displayName": "United States",
+  "beautySolution": "",
+  "solutionDescription": "From South African beauty editor Sarah Hoberman: 'I use pure shea butter as a body moisturizer in the winter. Frazer Parfum, a local beauty company, sources it from Mali. It is beautiful and natural, extremely moisturizing, and smells of the earth.'"
+  }
 
 }
 }
