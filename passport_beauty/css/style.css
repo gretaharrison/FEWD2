@@ -43,6 +43,7 @@ header h2 {
   background-color: #FEF9FF;
   color: #847E75;
   line-height: 2em;
+  margin-right: 1em;
 }
 
 /* **********************************************
@@ -59,6 +60,7 @@ nav ul li {
 	margin: 0;
 	padding: 0;
   margin-bottom: 1em;
+  margin-left: -20px;
 }
 
 nav a {
@@ -67,7 +69,6 @@ nav a {
 	color: #DF7373;
 	margin-right: 1px;
 	padding: 15px 0;
-	text-align: center;
   text-decoration: none;
   font-size: 1.25em;
 }
@@ -82,34 +83,34 @@ INTRO SLIDER
 
 #slider {
   background-color: #DF7373;
-  width: 950px;
+  width: 100%;
   height: 620px;
   position: absolute;
   margin: 0 auto;
-  left: 50%;
-  margin-left: -478px;
+  opacity: 0.75;
   top: 178px;
 }
 
 .slidertext h2 {
-  text-align: left;
-  color: #847E75;
-  font-size: 2.5em;
+  text-align: center;
+  font-size: 3em;
   color: #FEF9FF;
   font-family: 'Dosis', sans-serif;
   padding-left: 60px;
 }
 
 .slidertext p {
-  text-align: left;
-  font-size: 1.5em;
+  text-align: center;
+  font-size: 2.5em;
   padding-left: 60px;
   padding-right: 60px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  color: #FEF9FF;
 }
 
 div#map {
   margin-top: 100px;
+  width: 100%;
 }
 
 /* **********************************************
@@ -140,8 +141,20 @@ MODAL - pop up window
 }
 
 #modal .name {
-  font-style: italic;
+  font-style: bold;
   font-size: 2em;
+  margin-top: 10px;
+}
+
+#modal .solution {
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#modal .description {
+  font-size: 1.25em;
+  margin: 15px;
 }
 
 #close {
@@ -182,8 +195,87 @@ CONTACT PAGE
 /* **********************************************
 MEDIA QUERIES
 ************************************************* */
+@media (max-width: 1115px) {
+  nav ul li {
+    margin-top: -15px;
+  }
 
-@media (max-width: 400px) {
+  #slider {
+    margin-top: 15px;
+  }
+
+  #map svg {
+    width: 100%;
+    margin-top: -50px;
+  }
+
+  #modal {
+    visibility: hidden;
+    position: absolute;
+    height:500px;
+    width:500px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: black;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    z-index: 100;
+    margin-top: -110px;
+    margin-left: -300px;
+    text-align: center;
+    display: block;
+  }
+}
+@media (max-width: 900px) {
+
+  #map svg {
+    margin-top: -50px;
+  }
+  header h2 {
+    display: block;
+    font-size: 1.25em;
+    background-color: #FEF9FF;
+    color: #847E75;
+  }
+  nav ul li {
+    width: 100%;
+    line-height: 0.5em;
+    margin-top: -15px;
+    display: inline;
+  }
+  #slider {
+    margin-top: 50px;
+  }
+  #modal {
+    margin-left: -250px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  #map svg {
+    margin-top: -75px;
+  }
+}
+
+@media (max-width: 615px) {
+  #slider {
+    margin-top: 85px;
+  }
+  #map svg {
+    margin-top: -100px;
+  }
+  .slidertext h2 {
+    font-size: 2em;
+  }
+  .slidertext p {
+    font-size: 1.5em;
+  }
+}
+
+
+@media (max-width: 410px) {
 
   body {
     width: 400px;
@@ -194,13 +286,13 @@ MEDIA QUERIES
     font-size: 1.25em;
     background-color: #FEF9FF;
     color: #847E75;
-
   }
 
   nav ul li {
   	width: 100%;
     line-height: 0.5em;
     margin-top: -15px;
+    font-size: 1em;
   }
 
   #slider {
