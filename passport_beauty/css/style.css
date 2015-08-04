@@ -30,6 +30,7 @@ header h1 {
   background-color: #F2CCC3;
   padding: .3em;
   font-family: 'Dosis', sans-serif;
+  border-radius: 25px;
 }
 
 header h1 a {
@@ -109,8 +110,9 @@ INTRO SLIDER
 }
 
 div#map {
-  margin-top: 100px;
   width: 100%;
+  display: block;
+  margin-top: 100px;
 }
 
 /* **********************************************
@@ -195,18 +197,16 @@ CONTACT PAGE
 /* **********************************************
 MEDIA QUERIES
 ************************************************* */
-@media (max-width: 1115px) {
-  nav ul li {
-    margin-top: -15px;
-  }
+@media (max-width: 2000px) {
 
   #slider {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
   }
 
   #map svg {
-    width: 100%;
-    margin-top: -50px;
+    /*width: 100%;*/
+    /*margin-top: -50px;*/
+    margin-left: 100px;
   }
 
   #modal {
@@ -227,10 +227,19 @@ MEDIA QUERIES
     display: block;
   }
 }
+
+@media (max-width: 1115px) {
+  nav ul li {
+    margin-top: -25px;
+  }
+}
+
 @media (max-width: 900px) {
 
   #map svg {
-    margin-top: -50px;
+    margin-top: -10px;
+    width: 900px;
+    margin-left: 0;
   }
   header h2 {
     display: block;
@@ -255,7 +264,8 @@ MEDIA QUERIES
 
 @media (max-width: 800px) {
   #map svg {
-    margin-top: -75px;
+    width: 750px;
+    margin-top: -50px;
   }
 }
 
@@ -265,6 +275,7 @@ MEDIA QUERIES
   }
   #map svg {
     margin-top: -100px;
+    width: 615px;
   }
   .slidertext h2 {
     font-size: 2em;
@@ -280,48 +291,87 @@ MEDIA QUERIES
   body {
     width: 400px;
   }
-
-  header h2 {
+  header h1 {
     display: inline;
-    font-size: 1.25em;
+    font-size: 2em;
+    margin-right: .5em;
+    background-color: #F2CCC3;
+    padding: .3em;
+    font-family: 'Dosis', sans-serif;
+  }
+  header h2 {
+    display: block;
+    font-size: 1em;
     background-color: #FEF9FF;
     color: #847E75;
   }
 
+  nav {
+    margin-top: 20px;
+  }
   nav ul li {
   	width: 100%;
-    line-height: 0.5em;
-    margin-top: -15px;
-    font-size: 1em;
+    line-height: 0.25em;
+    /*margin-top: 15px;*/
+    font-size: 0.75em;
   }
 
   #slider {
     width: 400px;
     height: 400px;
     margin: 0 auto;
-    top: 260px;
+    top: 220px;
     left: 0;
   }
+
+  .slidertext h2 {
+    padding-right: 65px;
+  }
+
 
   #modal {
     visibility: hidden;
     position: absolute;
     height:400px;
-    width:400px;
+    width:300px;
     background-color: #fff;
     border: 1px solid #000;
     color: black;
     top: 260px;
-    left: 0;
+    left: 290px;
     text-align: center;
     display: block;
+  }
+  #modal p {
+    padding-left: 20px;
+    padding-right: 20px;
+    /*padding-top: 10px;*/
+    line-height: 1.5em;
+    font-family: 'Dosis', sans-serif;
+    color: #847E75;
+    /*top: 0;*/
+  }
+
+  #modal .name {
+    font-style: bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+
+  #modal .solution {
+    font-size: 1.25em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #modal .description {
+    font-size: 1em;
+    margin: 15px;
   }
 
   #map svg {
     width: 400px;
-    margin-top: -100px;
+    margin-top: -150px;
   }
-
-
 
 }

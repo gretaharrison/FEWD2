@@ -62,6 +62,7 @@ Element.prototype.Map = function() {
             document.getElementById('p');
             p.innerHTML = '';
           });
+
         });
       })(j)
     })(i);
